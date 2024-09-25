@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
     </style>
@@ -48,10 +55,47 @@
 
         <!-- Banner Button Part -->
         <div id="ban_btn">
-          <button type="button">SEE Programs</button>
-          <button type="button">Learn more</button>
+          <button class="btn" type="button">SEE Programs</button>
+          <button class="btn" type="button">Learn more</button>
         </div>
       </main>
+
+      <div class="slider">
+        <div class="slides">
+          <!-- Radio buttons for navigation -->
+          <input type="radio" name="radio-btn" id="radio1" checked />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+
+          <!-- Slide images -->
+          <div class="slide first">
+            <img src="./images/slider.jpg" alt="Image 1" />
+          </div>
+          <div class="slide">
+            <img src="./images/slider-2.jpg" alt="Image 2" />
+          </div>
+          <div class="slide">
+            <img src="./images//slider-3.jpg" alt="Image 3" />
+          </div>
+
+          <!-- Automatic navigation dots -->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+        </div>
+
+        <!-- Manual navigation -->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
     </section>
   </body>
 </html>
