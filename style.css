@@ -1,5 +1,79 @@
+/* Univarsal */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lora", serif;
+}
+
+/* Default design remove */
+a,
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+/* Button Design */
+.btn {
+  color: #cbb58b;
+  border: none;
+}
+
+/*======= Navbar Start Css =======*/
+#nav {
+  color: #fff;
+}
+
+.nav_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav_ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav_ul > li {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* ====== Banner Part ========*/
+#banner {
+  color: #fff;
+  background-image: url(./images/slider.jpg);
+}
+
+#banner_main {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+#head_text > h1 {
+  text-align: center;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+#head_text > p {
+  width: 660px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
